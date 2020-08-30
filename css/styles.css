@@ -1,3 +1,4 @@
+/* base page */
 * {
     margin: 0;
     padding: 0;
@@ -18,6 +19,15 @@ html {
     margin: 0 auto;
 }
 
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Header */
 header {
     background-image: linear-gradient(#000,rgba(0, 0, 0, 0.7)), url('../images/bg-code.jpg');
     background-size: cover;
@@ -43,6 +53,7 @@ h1 {
     word-spacing: 4px;
 }
 
+/* buttons */
 .btn:link, 
 .btn:visited {
     display: inline-block;
@@ -83,3 +94,33 @@ h1 {
     border : 1px solid #cf6d17;
     color: #fff;
 }
+
+/* Navigitaion */
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+
+.main-nav li a:link,
+.main-nav li a:visited
+ {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}
+

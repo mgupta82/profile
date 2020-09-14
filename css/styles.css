@@ -158,6 +158,20 @@ h2:after{
     border-bottom: 2px solid #e67e22;
 }
 
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon div {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+
 .work {
     width: 200px;
     height: 200px;

@@ -1,6 +1,6 @@
 backend:
   name: gitlab
-  repo: https://gitlab.com/itsphere1/cms
+  repo: itsphere1/cms
   branch: main # Branch to update (optional; defaults to master)
   api_root: https://gitlab.com/api/v4
   site_domain: localhost

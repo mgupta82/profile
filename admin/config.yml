@@ -7,6 +7,8 @@ backend:
   base_url: https://gitlab.com
   auth_endpoint: oauth/authorize
   cms_label_prefix: netlify-cms/
+  auth_type: pkce # Required for pkce
+  app_id: 215cb9f75b73df8238e0650a9abc9cf192220ecab4883b3d17103cd71e6672dd # Application ID from your GitLab settings  
 
 publish_mode: editorial_workflow 
 

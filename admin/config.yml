@@ -4,7 +4,7 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
   api_root: https://gitlab.com/api/v4
   site_domain: localhost
-  base_url: https://gitlab.com
+  base_url: https://gitlab.com/
   auth_endpoint: oauth/authorize
   cms_label_prefix: netlify-cms/
   auth_type: pkce # Required for pkce

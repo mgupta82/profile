@@ -1,5 +1,5 @@
 backend:
-  name: test-repo
+  name: azure
   base_url: https://login.microsoftonline.com/512a86d9-d66c-47a4-bae6-0ae9d697c62c
   auth_endpoint: oauth2/authorize
   cms_label_prefix: netlify-cms/

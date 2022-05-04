@@ -1,10 +1,5 @@
 backend:
-  name: azure
-  base_url: https://login.microsoftonline.com/512a86d9-d66c-47a4-bae6-0ae9d697c62c
-  auth_endpoint: oauth2/authorize
-  cms_label_prefix: netlify-cms/
-  auth_type: pkce # Required for pkce
-  app_id: 0ce53656-b768-4be1-b5dc-1582a41caece # Application ID from your GitLab settings  
+  name: test-repo
 
 publish_mode: editorial_workflow 
 

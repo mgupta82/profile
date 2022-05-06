@@ -1,5 +1,14 @@
 backend:
-  name: test-repo
+  name: gitlab
+  repo: itsphere1/cms
+  branch: main # Branch to update (optional; defaults to master)
+  api_root: https://gitlab.com/api/v4
+  site_domain: localhost
+  base_url: https://gitlab.com/
+  auth_endpoint: oauth/authorize
+  cms_label_prefix: netlify-cms/
+  auth_type: pkce # Required for pkce
+  app_id: 215cb9f75b73df8238e0650a9abc9cf192220ecab4883b3d17103cd71e6672dd # Application ID from your GitLab settings  
 
 publish_mode: editorial_workflow 
 
